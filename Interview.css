@@ -350,7 +350,7 @@ padding: 25px 0 0 0;
 .navigating_cold{
     width: 100%;
     height: 100vh;
-    background: url('https://images.unsplash.com/photo-1703226741497-6de4f67c6e11?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background: url('images/bernd-dittrich-huciLx_BveI-unsplash.jpg');
     background-position: 0px -200px;
     background-size: cover;
     overflow: hidden;
@@ -1492,9 +1492,9 @@ height: 100%;
     .navigating_cold{height: 240px;display: flex;align-items: center;justify-content: center;}
     .navigating_cold_content {padding: 0;}
     .navigating_cold_content h1{font-size: 28px;line-height: 35px;-webkit-text-stroke: 0.4px #fff;}
-    .para_content h1{font-size: 0.45rem;line-height: 13px;}
-    .para_content ul li{font-size: 7px;line-height: 10px}
-    .paragraphs p{font-size:7px;line-height: 10px;margin: 10px 0;letter-spacing: 0.2px;}
+    .para_content h1{font-size: 10px;line-height: 17px;}
+    .para_content ul li{font-size: 9px;line-height: 13px}
+    .paragraphs p{font-size:9px;line-height: 15px;margin: 10px 0;letter-spacing: 0.2px;word-spacing: 2px;}
     .banner_two{height: 235px;}
     .banner_two .banner_img img{height: 260px;}
     .banner_two .banner_content{padding: 0 30px;right: 0;}
@@ -1516,13 +1516,13 @@ height: 100%;
     .navigating_future_content{padding: 0 0 0 127px;}
     .navigating_future_content h1{font-size: 25px;line-height: 28px;-webkit-text-stroke: 0.4px #fff;letter-spacing: 2px;}
     .navigating_future_canda .paragraphs .para_content h2{
-        font-size: 7px;line-height: 9px;
+        font-size: 9px;line-height: 13px;
     }
     .hexagon{padding: 0 77px;gap: 0px;top: 35px;}
     .one{height: 39px;width: 24px;}
     .navigating_future_canda .paragraphs{gap: 20px;}
     .one img{bottom: 10px;left: 2px;width: 16px;height: 15px;}
-    .navigating_future_canda .paragraphs .para_content p{font-size: 6px;line-height: 8px;margin: 10px 0;letter-spacing: 0.2px;margin: 5px 0 0 0;}
+    .navigating_future_canda .paragraphs .para_content p{font-size: 8px;line-height: 12px;margin: 10px 0;letter-spacing: 0.2px;margin: 5px 0 0 0;}
     .bottom_background h1{font-size: 7rem;word-spacing: 30px;-webkit-text-stroke:0.1px #ffffff00;margin-top: -89px;line-height: 200px;}
     
 }
