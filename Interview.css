@@ -1395,6 +1395,7 @@ height: 100%;
 }
 .navigating_future_content{
     padding: 0 0 0 230px;
+    height: auto;
 }
 .navigating_future_content h1{
     font-size: 2.7rem;
@@ -1465,7 +1466,7 @@ height: 100%;
     }
     .Introduction{height: 300px;}
     .Introduction_background h1{font-size: 8rem;}
-    .Interview_intro{margin-top: 245px;}
+    .Interview_intro{margin-top: 300px;}
     .name h1{font-size: 2rem;line-height: 35px;}
     .name h2{font-size: 0.3rem;letter-spacing: 1px;}
     .name h3{font-size: 0.4rem;line-height: 10px;letter-spacing: 1px;}
@@ -1481,9 +1482,9 @@ height: 100%;
     .interviwee_img img{width: 100%;border: 1.5px solid #fff;}
     .market_growth{height: 250px;}
     .market_growth_content h1{font-size: 1.5rem;line-height: 32px;-webkit-text-stroke: 0.3px #fff;letter-spacing: 1px;word-spacing: 3px;}
-    .intro_content h1{font-size: 9px;line-height: 15px;}
-    .intro_content p{font-size: 7px;line-height: 10px;margin: 10px 0;letter-spacing: 0.2px;}
-    .banner_one{height: 50vh;}
+    .intro_content h1{font-size: 12px;line-height: 19px;}
+    .intro_content p{font-size: 9px;line-height: 14px;margin: 16px 0;letter-spacing: 0.2px;}
+    .banner_one{height: 260px;margin-bottom: 40px;}
     .banner_one .banner_content{left: 50px;}
     .banner_one .banner_img img{height: 240px;}
     .banner_one .banner_content h5{font-size: 12px;line-height: 20px;}
@@ -1494,7 +1495,7 @@ height: 100%;
     .para_content h1{font-size: 0.45rem;line-height: 13px;}
     .para_content ul li{font-size: 7px;line-height: 10px}
     .paragraphs p{font-size:7px;line-height: 10px;margin: 10px 0;letter-spacing: 0.2px;}
-    .banner_two{height: 50vh;}
+    .banner_two{height: 235px;}
     .banner_two .banner_img img{height: 260px;}
     .banner_two .banner_content{padding: 0 30px;right: 0;}
     .banner_two .banner_content h1{font-size: 1rem;line-height: 17px;}
@@ -1503,7 +1504,7 @@ height: 100%;
     .future_trend_content {padding: 0 0 0 64px;}
     .future_trend_content h1{font-size: 1.5rem;line-height: 28px;-webkit-text-stroke: 0.4px #fff;}
     .future_trends_img{height: 250px;display: flex;align-items: center;justify-content: center;}
-    .banner_three{height: 250px;}
+    .banner_three{height: 250px;margin-bottom: 30px;}
     .banner_three .banner_img img{height: 250px;}
     .banner_three .banner_content{left: 70px;top: 14px;}
     .banner_three .banner_content h5{font-size: 14px;line-height: 19px;}
