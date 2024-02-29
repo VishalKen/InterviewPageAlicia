@@ -286,7 +286,7 @@ margin: 0 auto;
 .navingating{
     width: 100%;
     background: rgb(241 241 241);
-   
+   overflow: hidden;
 }
 .banner_one {
     width: 100%;
@@ -483,6 +483,7 @@ padding: 25px 0 0 0;
  
     position: relative;
     background: url("images/2147717389.jpg");
+    background-size: cover;
     opacity: 0;
 
 }
@@ -593,7 +594,8 @@ that they form a hexagon */
 } 
 .future_trends{
     background: rgb(241 241 241);
-   
+   width: 100%;
+   overflow: hidden;
   
 }
 .future_trends_img{
@@ -638,6 +640,8 @@ padding: 0 0px 0 200px;
 .expanding{
     background: rgb(241 241 241);
     position: relative;
+    width: 100%;
+    overflow: hidden;
 }
 .banner_three {
     width: 100%;
@@ -1215,9 +1219,53 @@ height: 100%;
         line-height: 150px;
     }
 }
+@media (max-width:1040px){
+    .name h1{font-size: 6.2rem;line-height: 100px;}
+    .name h3{font-size: 1.5rem;line-height: 34px;}
+    .interviwee_img img{border-width: 3px;}
+    .banner_one .banner_content{left: 134px;}
+    .banner_one .banner_content .comment{left: 220px;}
+    .banner_one .banner_content h5{font-size: 2rem;}
+    .navigating_cold{background-position: 0 0px;}
+    .one{width: 65px;height: 39px;}
+    .one img{width: 32px;height: 30px;}
+    .banner_two .banner_content h1{font-size: 2.2rem;letter-spacing: 0px;}
+    .banner_three .banner_content{left: 150px;}
+    .banner_three .banner_content h5{font-size: 2.1rem;}
+    .commentth{width: 152px;left: 152px;bottom: -165px;}
+    .future_trend_content h1{font-size: 4rem;line-height: 90px;letter-spacing: 4px;}
+    .market_growth_content h1{font-size: 4rem;line-height: 80px;word-spacing: 4px;}
+    .navigating_cold_content h1{font-size: 4rem;line-height: 90px;}
+}
+@media (max-width:956px){
+    .name h1{font-size: 5.8rem;}
+}
+@media (max-width:906px){
+    .name h1{font-size: 5.5rem;}
+    .one{width: 56px;height: 33px;}
+    .one img{width: 28px;height: 26px;bottom: 1px;left: 12px;}
+}
+@media (max-width:869px){
+    .name h1{font-size: 5.2rem;line-height: 85px;}
+    .name h2{font-size: 1.1rem;letter-spacing: 1px;}
+    .name h3{font-size: 1.1rem;line-height: 28px;}
+}
+@media (max-width:830px){
+    .name h1{font-size: 5rem;line-height: 82px;}
+    .name h2{font-size: 1rem;letter-spacing: 1px;}
+    .name h3{font-size: 1rem;line-height: 28px;}
+    .one{width: 56px;height: 33px;}
+    .one img{width: 28px;height: 26px;bottom: 1px;left: 12px;}
+    .hexagon{padding: 0 200px;}
+}
+@media (max-width:808px){
+    .name h1{font-size: 4.7rem;line-height: 80px;}
+    .name h2{font-size: 0.85rem;letter-spacing: 1px;}
+ 
+}
 @media (max-width:769px) {
-    .Introduction{height: 80vh;}
-    .Interview_intro{margin-top: 80vh;padding: 20px 0;}
+    .Introduction{height: 410px;}
+    .Interview_intro{margin-top: 410px;padding: 20px 0;}
     .name h2{font-size: 0.7rem;}
     .name h1{font-size: 4.7rem;line-height: 70px;}
     .name h3{font-size: 0.7rem;line-height: 25px;}
@@ -1256,11 +1304,13 @@ height: 100%;
     line-height: 26px;
 }
 .intro_content p{
-    font-size: 10px;
-    line-height: 15px;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 0.4px;
+    word-spacing: 1px;
 }
 .banner_one{
-    height: 80vh;
+    height: 400px;
 }
 .banner_one .banner_content{
     left: 100px;
@@ -1270,60 +1320,64 @@ height: 100%;
     line-height: 31px;
     
 }
+.banner_one .banner_img img{ height: 400px;}
 .banner_one .banner_content .comment{
     left: 180px;
     width: 120px;
     height: 120px;
     bottom: -100px;
 }
+.paragraphs{padding: 30px 0;}
 .para_content h1{
-    font-size: 0.8rem;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 23px;
 }
 .para_content ul {
     gap: 10px;
     padding: 0 0 20px 20px;
 }
 .banner_two {
-    height: 80vh;
+    height: 400px;
 }
 .banner_two .banner_img img{
-    height: 80vh;
+    height: 400px;
 }
 
 .market_growth{
-    height: 80vh;
+    height: 400px;
 }
 .banner_two .banner_content h1{
-    font-size: 1.55rem;
-    line-height: 27px;
+    font-size: 31px;
+    line-height: 31px;
 }
 .commentt{
     width: 130px;
-
 }
 .hexagon{
     gap: 28px;
-    padding: 0 210px;
-    top: 60px;
+    padding: 0 170px;
+    top: 80px;
 }
 .one{
-    width: 52px;
-    height: 28px;
+    width: 51px;
+    height: 31px;
 }
 .one img{
     width: 22px;
     height: 22px;
-    bottom: 2px;
-    left: 11px;
+    bottom: 3px;
+    left: 13px;
 }
 .banner_three{
-    height: 80vh;
+    height: 400px;
 }
 .banner_three .banner_content{
     padding: 0 0 0 0px;
     left: 128px;
     top: 0;
+}
+.banner_three .banner_img img{
+    height: 400px;
 }
 .commentth{
     left: 130px;
@@ -1337,16 +1391,21 @@ height: 100%;
 }
 
 .para_content ul li{
-    font-size: 10px;
-    line-height: 16px;
+    font-size: 12px;
+    line-height: 21px;
+    word-spacing: 0px;
+    letter-spacing: 0.4px;
 }
 .paragraphs p{
-    font-size: 10px;
-    line-height: 16px;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
 }
+.para_content h4{font-size: 20px;}
 .navigating_cold{
     background-position: 0 0;
-    height: 80vh;
+    height: 400px;
 }
 .navigating_cold_content h1{
     font-size: 3rem;
@@ -1363,11 +1422,14 @@ height: 100%;
     -webkit-text-stroke: 0.8px #fff;
 }
 .future_trends_img{
-    height: 80vh;
+    height: 400px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
 }
 .future_trend_content{
     padding: 0 0 0 120px;
-    height: 80vh;
+    height:auto;
 }
 .future_trend_content h1{
     font-size: 3rem;
@@ -1375,20 +1437,21 @@ height: 100%;
     -webkit-text-stroke: 0.8px #fff;
 }
 .expanding_area{
-    height: 80vh;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .expanding_area_content{
     padding: 0 0 0 120px;
+    height: auto;
 }
 .expanding_area_content h1{
     font-size: 3rem;
     line-height: 60px;
 }
 .navigating_future{
-    height: 80vh;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1404,28 +1467,57 @@ height: 100%;
     line-height: 60px;
 }
 .navigating_future_canda .paragraphs .para_content h2{
-    font-size: 0.8rem;
+    font-size: 14px;
 }
 .navigating_future_canda .paragraphs .para_content p{
-    font-size: 10px;
-    line-height: 15px;
+    font-size: 11px;
+    line-height: 16px;
 }
 }
 @media (max-width:750px){
     .name h1{font-size: 4.2rem;}
     .name h3{letter-spacing: 1px;}
 }
+@media (max-width:715px){
+    .one img{left: 11px;}
+    .hexagon{padding: 0 156px;}
+}
+@media (max-width:675px){
+    .hexagon{padding: 0 140px;}
+    .one img{left: 13px;bottom: 2px;}
+}
+@media (max-width:650px){
+    .hexagon{padding: 0 132px;}
+    .one img{left: 13px;bottom: 3px;}
+}
 @media (max-width:630px){
     .hexagon{padding: 0 158px;gap: 8px;}
     .one{width: 47px;}
     .one img{width: 25px;height: 20px;bottom: 2px;left: 9px;}
     .name h3{font-size: 14px; line-height: 18px;}
+    .name h1{font-size: 56px;line-height: 55px;}
+}
+@media (max-width:600px){
+    .hexagon{padding: 0 130px;}
+    .one{width: 50px;}
+    .one img{bottom: 3px;left: 10px;}
+    .commentt{width: 115px;left: 28px;}
+    .commentth{left: 60px;}
+    .banner_three .banner_content h5{font-size: 20px;line-height: 29px;}
+    .banner_three .banner_content{left: 90px;}
+    .banner_two .banner_content{padding: 0 10px;}
+    .banner_two .banner_content h1{font-size: 24px;line-height: 30px;}
+}
+@media (max-width:545px){
+    .hexagon{padding: 0 100px;}
 }
 @media (max-width:526px){
-    .name h1{font-size: 2.5rem;line-height: 45px;}
+    .name h1{font-size: 38px;line-height: 45px;}
     .name h3{font-size: 0.6rem;line-height: 15px;}
     .interviwee_img img{width: 93%;border-width: 3px;}
-    .intro_content h1{font-size: 0.7rem;line-height: 20px;}
+    .Introduction{height: 350px;}
+    .Interview_intro{margin-top: 350px;}
+    .intro_content h1{font-size: 15px;line-height: 23px;}
     .banner_one{height: 355px;margin-bottom: 20px;}
     .banner_one .banner_content h5{line-height: 24px;font-size: 1.1rem;}
     .banner_one .banner_content{left: 63px;}
@@ -1441,8 +1533,8 @@ height: 100%;
     .banner_three .banner_img img{height: 320px;}
     .banner_three .banner_content h5{font-size: 17px;line-height: 25px;}
     .commentth{left: 58px;width: 100px;}
-    .hexagon{padding: 0 136px;gap: 32px;}
-    .one{width: 30px;height: 35px;}
+    .hexagon{padding: 0 100px;gap: 0px;}
+    .one{width: 23px;height: 35px;}
     .para_content h4{font-size: 0.7rem;}
     .navigating_cold{height: 320px;}
     .navigating_cold_content h1{font-size: 2.2rem;line-height: 45px;-webkit-text-stroke: 0.7px #fff;}
@@ -1459,6 +1551,11 @@ height: 100%;
     .navigating_future_content{padding: 0 0 0 165px;}
     .navigating_future_content h1{font-size: 32px;line-height: 44px;letter-spacing: 1px;-webkit-text-stroke: 0.7px #fff;}
     .paragraphs{padding: 20px 0;}
+}
+@media (max-width:490px){
+    .name h2{font-size: 9px;}
+    .name h1{font-size:35px;line-height: 38px;}
+    .name h3{font-size: 10px;line-height: 15px;}
 }
 @media (max-width:436px){
     section{overflow: hidden;}
