@@ -1633,26 +1633,26 @@ height: 100%;
     .market_growth{height: 250px;}
     .market_growth_content h1{font-size: 1.5rem;line-height: 32px;-webkit-text-stroke: 0.3px #fff;letter-spacing: 1px;word-spacing: 3px;}
     .intro_content h1{font-size: 15px;line-height: 21px;}
-    .intro_content p{font-size: 10px;line-height: 16px;margin: 16px 0;letter-spacing: 0.2px;word-spacing: 2px;}
+    .intro_content p{font-size: 13px;line-height: 18px;margin: 16px 0;letter-spacing: 0.2px;word-spacing: 2px;}
     .banner_one{height: 260px;margin-bottom: 40px;}
     .banner_one .banner_content{left: 50px;}
     .banner_one .banner_img img{height: 240px;}
-    .banner_one .banner_content h5{font-size: 12px;line-height: 20px;}
+    .banner_one .banner_content h5{font-size: 14px;line-height: 20px;}
     .banner_one .banner_content .comment{left: 119px;width: 72px;height: 70px;bottom: -72px;}
     .navigating_cold{height: 240px;display: flex;align-items: center;justify-content: center;}
     .navigating_cold_content {padding: 0;}
     .navigating_cold_content h1{font-size: 28px;line-height: 35px;-webkit-text-stroke: 0.4px #fff;}
-    .para_content h1{font-size: 11px;line-height: 18px;}
-    .para_content ul li{font-size: 10px;line-height: 15px}
-    .paragraphs p{font-size:10px;line-height: 15px;margin: 10px 0;letter-spacing: 0.2px;word-spacing: 2px;}
+    .para_content h1{font-size: 13px;line-height: 20px;}
+    .para_content ul li{font-size: 12px;line-height: 19px}
+    .paragraphs p{font-size:13px;line-height: 18px;margin: 10px 0;letter-spacing: 0.2px;word-spacing: 2px;}
     .banner_two{height: 235px;}
     .banner_two .banner_img img{height: 260px;}
     .banner_two .banner_content{padding: 0 50px;right: 0;}
     .banner_two .banner_content h1{font-size: 1rem;line-height: 19px;letter-spacing: 0px;}
     .commentt {width: 75px;bottom: -119px;left: 71px;}
-    .para_content h4{font-size: 9px;}
+    .para_content h4{font-size: 17px;}
     .future_trend_content {padding: 0 0 0 64px;}
-    .future_trend_content h1{font-size: 1.5rem;line-height: 28px;-webkit-text-stroke: 0.4px #fff;}
+    .future_trend_content h1{font-size: 32px;line-height: 43px;-webkit-text-stroke: 0.4px #fff;}
     .future_trends_img{height: 250px;display: flex;align-items: center;justify-content: center;}
     .banner_three{height: 250px;margin-bottom: 30px;}
     .banner_three .banner_img img{height: 250px;}
@@ -1661,24 +1661,24 @@ height: 100%;
     .commentth{left: 53px;width: 76px;bottom: -100px;}
     .expanding_area{height: 250px;background-position: 0 -300px !important;}
     .expanding_area_content {padding: 0 0 0 65px;}
-    .expanding_area_content h1{font-size: 25px;line-height: 31px;-webkit-text-stroke: 0.4px #fff;letter-spacing: 2px;}
+    .expanding_area_content h1{font-size: 32px;line-height: 37px;-webkit-text-stroke: 0.4px #fff;letter-spacing: 0px;}
     .navigating_future{height: 250px;}
     .navigating_future_content{padding: 0 0 0 30px;}
-    .navigating_future_content h1{font-size: 25px;line-height: 28px;-webkit-text-stroke: 0.4px #fff;letter-spacing: 2px;}
+    .navigating_future_content h1{font-size: 32px;line-height: 38px;-webkit-text-stroke: 0.4px #fff;letter-spacing: 2px;}
     .navigating_future_canda .paragraphs .para_content h2{
-        font-size: 9px;line-height: 13px;
+        font-size: 17pxpx;line-height: 24px;
     }
     .paragraphs{padding: 20px 0;}
     .hexagon{padding: 0 77px;gap: 0px;top: 35px;}
     .one{height: 39px;width: 24px;}
     .navigating_future_canda .paragraphs{gap: 20px;}
     .one img{bottom: 10px;left: 2px;width: 16px;height: 15px;}
-    .navigating_future_canda .paragraphs .para_content p{font-size: 8px;line-height: 12px;margin: 10px 0;letter-spacing: 0.2px;margin: 5px 0 0 0;}
+    .navigating_future_canda .paragraphs .para_content p{font-size: 11pxpx;line-height: 17px;margin: 10px 0;letter-spacing: 0.2px;margin: 5px 0 0 0;}
     .bottom_background h1{font-size: 7rem;word-spacing: 30px;-webkit-text-stroke:0.1px #ffffff00;margin-top: -89px;line-height: 200px;}
     
 }
 @media (max-width:427px){
-    .name h1{font-size:25px;line-height: 33px;}
+    .name h1{font-size:25px;line-height: 28px;}
 }
 @media (max-width:376px){
     .navigation_navbar ul{margin: 10px 0;}
