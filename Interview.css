@@ -1485,10 +1485,13 @@ height: 100%;
 @media (max-width:675px){
     .hexagon{padding: 0 140px;}
     .one img{left: 13px;bottom: 2px;}
+    .banner_one .banner_content{padding: 0;}
+    .banner_one .banner_content .comment{left: 160px;width: 100px;}
 }
 @media (max-width:650px){
     .hexagon{padding: 0 132px;}
     .one img{left: 13px;bottom: 3px;}
+    .banner_one .banner_content .comment{bottom: -75px;}
 }
 @media (max-width:630px){
     .hexagon{padding: 0 158px;gap: 8px;}
@@ -1496,6 +1499,7 @@ height: 100%;
     .one img{width: 25px;height: 20px;bottom: 2px;left: 9px;}
     .name h3{font-size: 14px; line-height: 18px;}
     .name h1{font-size: 56px;line-height: 55px;}
+    
 }
 @media (max-width:600px){
     .hexagon{padding: 0 130px;}
