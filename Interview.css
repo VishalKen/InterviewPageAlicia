@@ -1452,7 +1452,7 @@ height: 100%;
     .navigating_future_content{padding: 0 0 0 165px;}
     .navigating_future_content h1{font-size: 2rem;line-height: 44px;letter-spacing: 1px;-webkit-text-stroke: 0.7px #fff;}
 }
-@media (max-width:426px){
+@media (max-width:436px){
     .navigation_navbar ul{gap: 7px;}
     .navigation_navbar ul li a{font-size: 4px; padding: 0 0 0 10px;display: flex; &::after{margin-left: 5px;background-size: 5px 2px;height: 0.8px;margin-top: -1px;}}
     @keyframes animate_nav {
