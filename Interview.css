@@ -107,7 +107,7 @@ justify-content: center;
 height: 100vh;
 /* background-color: #2b0558;
 background-image: linear-gradient(148deg, #2b0558 0%, #450673 100%); */
-background: url('https://img.freepik.com/premium-photo/purple-blur-abstract-texture-background-pattern-backdrop-gradient-wallpaper_41691-6095.jpg?w=826');
+background: url('images/purple-blur-abstract-texture-background-pattern-backdrop-gradient-wallpaper\ \(1\).jpg');
 background-size: cover;
 position: fixed;
 top: 0;
@@ -752,6 +752,7 @@ justify-content: flex-start;
 .navigating_future_canda{
     background: rgb(241 241 241);
     overflow: hidden;
+   
 }
 .navigating_future{
     width: 100%;
@@ -762,6 +763,9 @@ justify-content: flex-start;
     background-size: cover;
     position: relative;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .navigating_future::before{
 position: absolute;
@@ -777,9 +781,10 @@ background: linear-gradient(90deg, rgba(0,0,0,0.14627100840336138) 0%, rgba(0,0,
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 0 200px;
+    padding: 0 0 0 200px;
 overflow: hidden;
 opacity: 0;
+box-sizing: border-box;
     align-items: center;
     justify-content: flex-start;
     position: absolute;
@@ -789,12 +794,14 @@ opacity: 0;
     font-size: 4rem;
     font-family: Poppins;
     font-weight: 800;
-    width: 60%;
+    width: 70%;
     line-height:80px;
+    display: flex;
     align-items: flex-start;
     -webkit-text-stroke: 1.3px #fff;
     color: transparent;
     letter-spacing: 4px;
+    
 }
 .navigating_future_canda .paragraphs {
     background: #6C22A6;
@@ -1223,9 +1230,13 @@ height: 100%;
     .name h1{font-size: 6.2rem;line-height: 100px;}
     .name h3{font-size: 1.5rem;line-height: 34px;}
     .interviwee_img img{border-width: 3px;}
-    .banner_one .banner_content{left: 134px;}
-    .banner_one .banner_content .comment{left: 220px;}
-    .banner_one .banner_content h5{font-size: 2rem;}
+    .intro_content{width: 75%;}
+    .para_content{width: 75%;}
+    .intro_content h1{font-size: 1.5rem;line-height: 37px;}
+    .intro_content p{font-size: 15px;line-height: 26px;word-spacing: 2px;}
+    .banner_one .banner_content{left: 109px;}
+    .banner_one .banner_content .comment{left: 290px;width: 150px;bottom: -155px;}
+    .banner_one .banner_content h5{font-size: 1.9rem;}
     .navigating_cold{background-position: 0 0px;}
     .one{width: 65px;height: 39px;}
     .one img{width: 32px;height: 30px;}
@@ -1233,22 +1244,31 @@ height: 100%;
     .banner_three .banner_content{left: 150px;}
     .banner_three .banner_content h5{font-size: 2.1rem;}
     .commentth{width: 152px;left: 152px;bottom: -165px;}
-    .future_trend_content h1{font-size: 4rem;line-height: 90px;letter-spacing: 4px;}
+    .future_trend_content h1{font-size: 4rem;line-height: 80px;letter-spacing: 4px;}
+    .expanding_area_content h1{font-size: 4rem;line-height: 90px;letter-spacing: 4px;}
     .market_growth_content h1{font-size: 4rem;line-height: 80px;word-spacing: 4px;}
-    .navigating_cold_content h1{font-size: 4rem;line-height: 90px;}
+    .navigating_future_content{padding: 0 0 0 140px;height: auto}
+    .navigating_cold_content h1{font-size: 4rem;line-height: 81px;letter-spacing: 2px;width: 75%;}
+    .future_trend_content{padding: 0 0 0 143px;}
+    .expanding_area_content{padding:  0 0 0 130px;}
 }
 @media (max-width:956px){
     .name h1{font-size: 5.8rem;}
+    .banner_one .banner_content h5{font-size: 1.75rem;}
+    .banner_three .banner_content h5{font-size: 2rem;}
 }
 @media (max-width:906px){
     .name h1{font-size: 5.5rem;}
     .one{width: 56px;height: 33px;}
     .one img{width: 28px;height: 26px;bottom: 1px;left: 12px;}
+    .banner_one .banner_content h5{font-size: 1.7rem;}
+    .banner_three .banner_content h5{font-size: 1.8rem;}
 }
 @media (max-width:869px){
     .name h1{font-size: 5.2rem;line-height: 85px;}
     .name h2{font-size: 1.1rem;letter-spacing: 1px;}
     .name h3{font-size: 1.1rem;line-height: 28px;}
+    .banner_one .banner_content h5{font-size: 1.6rem;line-height: 45px;}
 }
 @media (max-width:830px){
     .name h1{font-size: 5rem;line-height: 82px;}
@@ -1257,11 +1277,13 @@ height: 100%;
     .one{width: 56px;height: 33px;}
     .one img{width: 28px;height: 26px;bottom: 1px;left: 12px;}
     .hexagon{padding: 0 200px;}
+    .banner_two .banner_content h1{font-size: 2rem;}
+    .banner_three .banner_content h5{line-height: 45px;}
 }
 @media (max-width:808px){
     .name h1{font-size: 4.7rem;line-height: 80px;}
     .name h2{font-size: 0.85rem;letter-spacing: 1px;}
- 
+    .banner_three .banner_content{left: 106px;}
 }
 @media (max-width:769px) {
     .Introduction{height: 410px;}
@@ -1457,13 +1479,13 @@ height: 100%;
     justify-content: center;
 }
 .navigating_future_content{
-    padding: 0 0 0 230px;
+    padding: 0 0 0 100px;
     height: auto;
 }
 .navigating_future_content h1{
-    font-size: 2.7rem;
+    font-size: 2.6rem;
     padding: 0;
-    width: 70%;
+    width: 75%;
     line-height: 60px;
 }
 .navigating_future_canda .paragraphs .para_content h2{
@@ -1481,12 +1503,23 @@ height: 100%;
 @media (max-width:715px){
     .one img{left: 11px;}
     .hexagon{padding: 0 156px;}
+    .intro_content{width: 85%;}
+    .para_content{width: 85%;}
+    .banner_one .banner_content{left: 58px;padding: 0;}
+    .banner_two .banner_content{padding: 0;}
+    .commentt{width: 110px;bottom: -135px;left: 17px;}
+    .banner_three .banner_content{left: 60px;}
+
+}
+@media (max-width:708px){
+    .name h1{font-size: 3.8rem;}
 }
 @media (max-width:675px){
     .hexagon{padding: 0 140px;}
     .one img{left: 13px;bottom: 2px;}
     .banner_one .banner_content{padding: 0;}
     .banner_one .banner_content .comment{left: 160px;width: 100px;}
+    .name h1{font-size: 3.6rem;}
 }
 @media (max-width:650px){
     .hexagon{padding: 0 132px;}
@@ -1498,7 +1531,7 @@ height: 100%;
     .one{width: 47px;}
     .one img{width: 25px;height: 20px;bottom: 2px;left: 9px;}
     .name h3{font-size: 14px; line-height: 18px;}
-    .name h1{font-size: 56px;line-height: 55px;}
+    .name h1{font-size: 54px;line-height: 55px;}
     
 }
 @media (max-width:600px){
@@ -1511,9 +1544,14 @@ height: 100%;
     .banner_three .banner_content{left: 90px;}
     .banner_two .banner_content{padding: 0 10px;}
     .banner_two .banner_content h1{font-size: 24px;line-height: 30px;}
+    .name h1{font-size: 50px;line-height: 55px;}
+}
+@media (max-width:574px){
+    .name h1{font-size: 47px;line-height: 53px;}
 }
 @media (max-width:545px){
     .hexagon{padding: 0 100px;}
+    .name h1{font-size: 44px;line-height: 53px;}
 }
 @media (max-width:526px){
     .name h1{font-size: 38px;line-height: 45px;}
@@ -1560,6 +1598,9 @@ height: 100%;
     .name h2{font-size: 9px;}
     .name h1{font-size:35px;line-height: 38px;}
     .name h3{font-size: 10px;line-height: 15px;}
+}
+@media (max-width:460px){
+    .name h1{font-size:32px;line-height: 38px;}
 }
 @media (max-width:436px){
     section{overflow: hidden;}
@@ -1636,11 +1677,14 @@ height: 100%;
     .bottom_background h1{font-size: 7rem;word-spacing: 30px;-webkit-text-stroke:0.1px #ffffff00;margin-top: -89px;line-height: 200px;}
     
 }
+@media (max-width:427px){
+    .name h1{font-size:25px;line-height: 33px;}
+}
 @media (max-width:376px){
     .navigation_navbar ul{margin: 10px 0;}
     .intro_content h1{font-size: 0.53rem;line-height: 15px;}
     .name h2{font-size: 0.2rem;}
-    .name h1{font-size: 1.5rem;line-height: 25px;}
+    .name h1{font-size:21px;line-height: 20px;}
     .name h3{font-size: 0.2rem;line-height: 5px;}
     .navigation_navbar ul{gap: 4px;padding: 0;}
     @keyframes animate_nav {
