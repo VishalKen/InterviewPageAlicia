@@ -1415,45 +1415,53 @@ height: 100%;
     .name h1{font-size: 4.2rem;}
     .name h3{letter-spacing: 1px;}
 }
+@media (max-width:630px){
+    .hexagon{padding: 0 158px;gap: 8px;}
+    .one{width: 47px;}
+    .one img{width: 25px;height: 20px;bottom: 2px;left: 9px;}
+    .name h3{font-size: 14px; line-height: 18px;}
+}
 @media (max-width:526px){
-    .name h1{font-size: 2.7rem;line-height: 45px;}
+    .name h1{font-size: 2.5rem;line-height: 45px;}
     .name h3{font-size: 0.6rem;line-height: 15px;}
     .interviwee_img img{width: 93%;border-width: 3px;}
     .intro_content h1{font-size: 0.7rem;line-height: 20px;}
-    .banner_one{height: 65vh;}
+    .banner_one{height: 355px;margin-bottom: 20px;}
     .banner_one .banner_content h5{line-height: 24px;font-size: 1.1rem;}
     .banner_one .banner_content{left: 63px;}
-    .banner_one .banner_img img{height: 65vh;}
+    .banner_one .banner_img img{height: 320px;}
     .banner_one .banner_content .comment{left: 120px;width: 100px;bottom: -83px;}
-    .banner_two{height: 65vh;}
+    .banner_two{height: 320px;}
     .banner_two .banner_content{padding: 0;}
-    .banner_two .banner_content h1{font-size: 1.2rem;line-height: 23px;}
-    .banner_two .banner_img img{height: 65vh;}
+    .banner_two .banner_content h1{font-size: 1.2rem;line-height: 23px;letter-spacing: 0px;}
+    .banner_two .banner_img img{height: 320px;}
     .commentt{width: 104px;bottom: -140px;left: 14px;}
-    .banner_three{height: 65vh;}
+    .banner_three{height: 335px;margin-bottom: 25px;}
     .banner_three .banner_content{left: 88px;}
-    .banner_three .banner_img img{height: 65vh;}
-    .banner_three .banner_content h5{font-size: 1.2rem;line-height: 25px;}
+    .banner_three .banner_img img{height: 320px;}
+    .banner_three .banner_content h5{font-size: 17px;line-height: 25px;}
     .commentth{left: 58px;width: 100px;}
     .hexagon{padding: 0 136px;gap: 32px;}
-    .one{width: 32px;height: 38px;}
+    .one{width: 30px;height: 35px;}
     .para_content h4{font-size: 0.7rem;}
-    .navigating_cold{height: 65vh;}
+    .navigating_cold{height: 320px;}
     .navigating_cold_content h1{font-size: 2.2rem;line-height: 45px;-webkit-text-stroke: 0.7px #fff;}
-    .future_trends_img{height: 65vh;display: flex;align-items: center;justify-content: center;}
+    .future_trends_img{height: 320px;display: flex;align-items: center;justify-content: center;}
     .future_trend_content{padding: 0 0 0 81px;}
-    .future_trend_content h1{font-size: 2.3rem;line-height: 44px;width: 75%;letter-spacing: 2px;}
-    .one img{width: 18px;height: 18px;bottom: 7px;left: 1px;}
-    .market_growth{height: 65vh;background-size: cover;}
-    .market_growth_content h1{font-size: 2rem;line-height: 44px;word-spacing: 2px;}
-    .expanding_area{height: 65vh;background-size: cover;background-position: 0 -350px !important;}
+    .future_trend_content h1{font-size: 38px;line-height: 44px;width: 75%;letter-spacing: 2px;}
+    .one img{width: 16px;height: 17px;bottom: 7px;left: 1px;}
+    .market_growth{height: 320px;background-size: cover;margin-top: 30px;}
+    .market_growth_content h1{font-size: 32px;line-height: 42px;word-spacing: 1px;letter-spacing: 1px;}
+    .expanding_area{height: 320px;background-size: cover;background-position: 0 -350px !important;}
     .expanding_area_content{padding: 0 0 0 79px;}
-    .expanding_area_content h1{font-size: 2rem;line-height: 44px;letter-spacing: 2px;-webkit-text-stroke: 0.8px #fff;}
-    .navigating_future{height: 65vh;}
+    .expanding_area_content h1{font-size: 32px;line-height: 42px;letter-spacing: 2px;-webkit-text-stroke: 0.8px #fff;}
+    .navigating_future{height: 320px;}
     .navigating_future_content{padding: 0 0 0 165px;}
-    .navigating_future_content h1{font-size: 2rem;line-height: 44px;letter-spacing: 1px;-webkit-text-stroke: 0.7px #fff;}
+    .navigating_future_content h1{font-size: 32px;line-height: 44px;letter-spacing: 1px;-webkit-text-stroke: 0.7px #fff;}
+    .paragraphs{padding: 20px 0;}
 }
 @media (max-width:436px){
+    section{overflow: hidden;}
     .navigation_navbar ul{gap: 7px;}
     .navigation_navbar ul li a{font-size: 4px; padding: 0 0 0 10px;display: flex; &::after{margin-left: 5px;background-size: 5px 2px;height: 0.8px;margin-top: -1px;}}
     @keyframes animate_nav {
@@ -1468,7 +1476,7 @@ height: 100%;
     .Introduction_background h1{font-size: 8rem;}
     .Interview_intro{margin-top: 300px;}
     .name h1{font-size: 2rem;line-height: 35px;}
-    .name h2{font-size: 0.3rem;letter-spacing: 1px;}
+    .name h2{font-size: 7px;letter-spacing: 1px;}
     .name h3{font-size: 0.4rem;line-height: 10px;letter-spacing: 1px;}
     .name span{font-size: 1rem;}
     .scroll_sign {bottom: 13px;}
@@ -1497,8 +1505,8 @@ height: 100%;
     .paragraphs p{font-size:9px;line-height: 15px;margin: 10px 0;letter-spacing: 0.2px;word-spacing: 2px;}
     .banner_two{height: 235px;}
     .banner_two .banner_img img{height: 260px;}
-    .banner_two .banner_content{padding: 0 30px;right: 0;}
-    .banner_two .banner_content h1{font-size: 1rem;line-height: 17px;}
+    .banner_two .banner_content{padding: 0 50px;right: 0;}
+    .banner_two .banner_content h1{font-size: 1rem;line-height: 19px;letter-spacing: 0px;}
     .commentt {width: 75px;bottom: -119px;left: 28px;}
     .para_content h4{font-size: 9px;}
     .future_trend_content {padding: 0 0 0 64px;}
@@ -1518,6 +1526,7 @@ height: 100%;
     .navigating_future_canda .paragraphs .para_content h2{
         font-size: 9px;line-height: 13px;
     }
+    .paragraphs{padding: 20px 0;}
     .hexagon{padding: 0 77px;gap: 0px;top: 35px;}
     .one{height: 39px;width: 24px;}
     .navigating_future_canda .paragraphs{gap: 20px;}
