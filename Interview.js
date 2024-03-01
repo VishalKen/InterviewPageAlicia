@@ -2,7 +2,11 @@ $(document).ready(function(){
 
   let navigating_list=$('.navigation_navbar ul li a');
  let navigation_navbar=$('.Interview_intro').offset().top;
- 
+ $('.animated-element').each(function() {
+       if ($(document).scrollTop() > $(this).offset().top - $(window).height()) {
+         $(this).addClass('visible');
+       }
+     });
  function handleScroll() {
 
    navigating_list.each(function (index){
