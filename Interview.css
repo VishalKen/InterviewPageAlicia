@@ -1666,11 +1666,12 @@ user-select: none;
     .Introduction{height: 300px;}
     .Introduction_background h1{font-size: 8rem;}
     .Interview_intro{margin-top: 300px;}
-    .name h1{font-size: 2rem;line-height: 35px;}
-    .name h2{font-size: 7px;letter-spacing: 1px;}
-    .name h3{font-size: 0.4rem;line-height: 10px;letter-spacing: 1px;}
+    .name{width: 50%;}
+    .name h1{font-size:40px;line-height: 42px;}
+    .name h2{font-size: 11px;letter-spacing: 0.7px;text-transform: capitalize;}
+    .name h3{font-size: 11px;line-height: 16px;letter-spacing: 0.6px;}
     .name span{font-size: 1rem;}
-    .scroll_sign {bottom: 13px;}
+    .scroll_sign {display: none;}
     .arrow_box{width: 10px;height: 16px;border: 1.2px solid #fff;}
     .arrow_box::before{width: 0.6px;margin-top: 3px;}
     @keyframes arrow {
@@ -1678,6 +1679,7 @@ user-select: none;
         50%{height: 9px;}
         100%{height: 0px;}
     }
+    .interviwee_img{margin-left: 20px;}
     .interviwee_img img{width: 100%;border: 1.5px solid #fff;}
     @keyframes animateImg {
         0%{opacity: 0;transform: translateX(-20px);}
@@ -1730,19 +1732,19 @@ user-select: none;
     .navigating_future_content{padding: 0 0 0 30px;}
     .navigating_future_content h1{font-size: 32px;line-height: 38px;-webkit-text-stroke: 0.4px #fff;letter-spacing: 2px;}
     .navigating_future_canda .paragraphs .para_content h2{
-        font-size: 16px;line-height: 25px;margin-bottom: 8px;
+        font-size: 18px;line-height: 28px;margin-bottom: 8px;
     }
-    .paragraphs{padding: 20px 0;}
+    .paragraphs{padding: 20px 0 40px 0;}
     .hexagon{padding: 0 77px;gap: 0px;top: 35px;}
     .one{height: 39px;width: 24px;}
-    .navigating_future_canda .paragraphs{gap: 20px;}
+    
     .one img{bottom: 10px;left: 2px;width: 16px;height: 15px;}
     .navigating_future_canda .paragraphs .para_content p{font-size: 15px;line-height: 25px;margin: 10px 0;letter-spacing: 0.2px;margin: 5px 0 0 0;}
     .bottom_background h1{font-size: 7rem;word-spacing: 30px;-webkit-text-stroke:0.1px #ffffff00;margin-top: -89px;line-height: 200px;}
-    
+    .navigating_future_canda .paragraphs{overflow: hidden;padding: 0 0 50px 0;}
 }
 @media (max-width:427px){
-    .name h1{font-size:25px;line-height: 28px;}
+    .name h1{font-size:40px;line-height: 42px;}
 }
 @media (max-width:376px){
     .navigation_navbar ul{margin: 10px 0;}
