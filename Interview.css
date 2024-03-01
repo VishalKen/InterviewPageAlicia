@@ -105,9 +105,11 @@ padding: 40px;
 align-items: center;
 justify-content: center;
 height: 100vh;
-/* background-color: #2b0558;
-background-image: linear-gradient(148deg, #2b0558 0%, #450673 100%); */
-background: url('images/purple-blur-abstract-texture-background-pattern-backdrop-gradient-wallpaper\ \(1\).jpg');
+
+/* background: url('images/purple-blur-abstract-texture-background-pattern-backdrop-gradient-wallpaper\ \(1\).jpg');
+background-size: cover; */
+background: rgb(43,14,104);
+background: linear-gradient(132deg, rgba(43,14,104,1) 40%, rgba(181,88,202,1) 100%);
 background-size: cover;
 position: fixed;
 top: 0;
@@ -210,9 +212,10 @@ box-sizing: border-box;
     width: 65%;
     height: 60%;
 object-fit: cover;
-background: url('https://img.freepik.com/premium-photo/purple-blur-abstract-texture-background-pattern-backdrop-gradient-wallpaper_41691-6095.jpg?w=826');
+background: rgb(43,14,104);
+background: linear-gradient(153deg, rgba(43,14,104,1) 12%, rgba(181,88,202,0.9641981792717087) 100%);
+
 border: 4px solid #fff;
-background-position: -200px 00px;
 border-radius: 100%;
 box-sizing: border-box;
 
@@ -430,6 +433,7 @@ padding: 25px 0 0 0;
 .market_growth_section{
     background: rgb(241 241 241);
     overflow: hidden;
+    width: 100%;
 }
 .banner_two{
     display: flex;
@@ -737,6 +741,7 @@ position: absolute;
 height: 100vh;
 display: flex;
 opacity: 0;
+width: 100%;
 overflow: hidden;
 align-items: center;
 justify-content: flex-start;
@@ -754,7 +759,7 @@ justify-content: flex-start;
 .navigating_future_canda{
     background: rgb(241 241 241);
     overflow: hidden;
-   
+   width: 100%;
 }
 .intro_content .para_content{
     width: 100%;
@@ -828,11 +833,12 @@ box-sizing: border-box;
 }
 .navigating_future_canda .paragraphs {
     background: #6C22A6;
+
     color: #fff;
    position: relative;
     display: flex;
     flex-flow: column;
-    gap: 15px;
+    gap: 0px;
     padding: 50px 0 50px 0;
   
 }
@@ -1632,6 +1638,7 @@ user-select: none;
     .name h1{font-size:32px;line-height: 38px;}
 }
 @media (max-width:436px){
+    .navigation_navbar{display: none;}
     section{overflow: hidden;}
     .navigation_navbar ul{gap: 7px;}
     .navigation_navbar ul li a{font-size: 4px; padding: 0 0 0 10px;display: flex; &::after{margin-left: 5px;background-size: 5px 2px;height: 0.8px;margin-top: -1px;}}
@@ -1642,6 +1649,15 @@ user-select: none;
         100%{
             width: 11px;
         }
+    }
+    .visible_img_text{
+        transform: translateX(20px);
+        opacity: 0;
+        animation: animateImgText 1.2s 0.5s forwards ease-in-out;
+    }
+    @keyframes animateImgText {
+        0%{opacity: 0;transform: translateX(20px);}
+        100%{opacity: 1;transform: translateX(0px);}
     }
     .Introduction{height: 300px;}
     .Introduction_background h1{font-size: 8rem;}
@@ -1659,10 +1675,24 @@ user-select: none;
         100%{height: 0px;}
     }
     .interviwee_img img{width: 100%;border: 1.5px solid #fff;}
+    @keyframes animateImg {
+        0%{opacity: 0;transform: translateX(-20px);}
+        70%{opacity: 1;}
+        100%{opacity: 1;transform: translateX(0px);}
+    }
+    @keyframes  bannerImgt{
+        0%{left: -20px;opacity: 0;}
+        100%{left: 0;opacity: 1;}
+    }
+    @keyframes  bannerImg{
+        0%{right: -20px;opacity: 0;}
+        10%{opacity: 1;}
+        100%{right: 0;opacity: 1;}
+    }
     .market_growth{height: 320px;}
     .market_growth_content h1{font-size: 2rem;line-height: 35px;-webkit-text-stroke: 0.3px #fff;letter-spacing: 1px;word-spacing: 3px;}
-    .intro_content h1{font-size: 20px;line-height: 31px; margin-top: 20px;}
-    .para_content h2{font-size: 18px;line-height: 26px;}
+    .intro_content h1{font-size: 18px;line-height: 27px; margin-top: 20px;}
+    .para_content h2{font-size: 16px;line-height: 25px;}
     .intro_content p{font-size: 15px;line-height: 25px;margin: 16px 0;letter-spacing: 0.2px;word-spacing: 2px;}
     .banner_one{height: 260px;margin-bottom: 40px;}
     .banner_one .banner_content{left: 50px;}
@@ -1672,13 +1702,13 @@ user-select: none;
     .navigating_cold{height: 320px;display: flex;align-items: center;justify-content: center;}
     .navigating_cold_content {padding: 0;}
     .navigating_cold_content h1{font-size: 40px;line-height: 50px;-webkit-text-stroke: 0.4px #fff;}
-    .para_content h1{font-size: 17px;line-height: 25px;}
+    .para_content h1{font-size: 15px;line-height: 28px;}
     .para_content ul li{font-size: 15px;line-height: 25px}
     .paragraphs p{font-size:15px;line-height: 25px;margin: 10px 0;letter-spacing: 0.2px;word-spacing: 2px;}
     .banner_two{height: 320px;}
     .banner_two .banner_img img{height: 320px;}
-    .banner_two .banner_content{padding: 0 50px;right: 0;}
-    .banner_two .banner_content h1{font-size: 21px;line-height: 21px;letter-spacing: 0px;}
+    .banner_two .banner_content{padding: 0 0px;right: 0;width: 75%;}
+    .banner_two .banner_content h1{font-size: 22px;line-height: 32px;letter-spacing: 0px;}
     .commentt {width: 75px;bottom: -119px;left: 71px;}
     .para_content h4{font-size: 17px;}
     .future_trend_content {padding: 0 0 0 64px;}
@@ -1686,8 +1716,8 @@ user-select: none;
     .future_trends_img{height: 320px;display: flex;align-items: center;justify-content: center;}
     .banner_three{height: 320px;margin-bottom: 30px;}
     .banner_three .banner_img img{height: 320px;}
-    .banner_three .banner_content{left: 35px;top: 14px;}
-    .banner_three .banner_content h5{font-size: 18px;line-height: 19px;}
+    .banner_three .banner_content{left: 35px;top: 14px;width: 75%;}
+    .banner_three .banner_content h5{font-size: 21px;line-height: 26px;}
     .commentth{left: 53px;width: 76px;bottom: -100px;}
     .expanding_area{height: 320px;background-position: 0 -321px !important;}
     .expanding_area_content {padding: 0 0 0 65px;}
@@ -1696,7 +1726,7 @@ user-select: none;
     .navigating_future_content{padding: 0 0 0 30px;}
     .navigating_future_content h1{font-size: 32px;line-height: 38px;-webkit-text-stroke: 0.4px #fff;letter-spacing: 2px;}
     .navigating_future_canda .paragraphs .para_content h2{
-        font-size: 18px;line-height: 26px;margin-bottom: 17px;
+        font-size: 16px;line-height: 25px;margin-bottom: 8px;
     }
     .paragraphs{padding: 20px 0;}
     .hexagon{padding: 0 77px;gap: 0px;top: 35px;}
