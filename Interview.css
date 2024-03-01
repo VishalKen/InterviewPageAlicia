@@ -1268,7 +1268,7 @@ user-select: none;
     .intro_content{width: 75%;}
     .para_content{width: 75%;}
     .intro_content h1{font-size: 1.5rem;line-height: 37px;}
-    .intro_content p{font-size: 15px;line-height: 26px;word-spacing: 2px;}
+    .intro_content p{font-size: 15px;line-height: 26px;}
     .banner_one .banner_content{left: 109px;}
     .banner_one .banner_content .comment{left: 290px;width: 150px;bottom: -155px;}
     .banner_one .banner_content h5{font-size: 1.9rem;}
@@ -1323,11 +1323,12 @@ user-select: none;
 @media (max-width:769px) {
     .Introduction{height: 410px;}
     .Interview_intro{margin-top: 410px;padding: 20px 0;}
-    .name h2{font-size: 0.7rem;}
-    .name h1{font-size: 4.7rem;line-height: 70px;}
-    .name h3{font-size: 0.7rem;line-height: 25px;}
+    .name h2{font-size: 0.8rem;}
+    .name h1{font-size: 4.8rem;line-height: 76px;}
+    .name h3{font-size: 0.8rem;line-height: 20px;letter-spacing: 0.7px;}
     .name span{font-size: 1.2rem;}
-
+    .intro_content{width: 80%;}
+    .para_content{width: 80%;}
     .interviwee_img img{
         width: 65%;
        
@@ -1357,14 +1358,15 @@ user-select: none;
     }
 }
 .intro_content h1{
-    font-size: 1rem;
-    line-height: 26px;
+    font-size: 1.4rem;
+    line-height: 38px;
+    margin-top: 50px;
 }
 .intro_content p{
-    font-size: 12px;
-    line-height: 19px;
+    font-size: 15px;
+    line-height: 26px;
     letter-spacing: 0.4px;
-    word-spacing: 1px;
+   
 }
 .banner_one{
     height: 400px;
@@ -1386,8 +1388,8 @@ user-select: none;
 }
 .paragraphs{padding: 30px 0;}
 .para_content h1{
-    font-size: 16px;
-    line-height: 23px;
+    font-size: 18px;
+    line-height: 30px;
 }
 .para_content ul {
     gap: 10px;
@@ -1448,16 +1450,14 @@ user-select: none;
 }
 
 .para_content ul li{
-    font-size: 12px;
-    line-height: 21px;
-    word-spacing: 0px;
-    letter-spacing: 0.4px;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.4px
 }
 .paragraphs p{
-    font-size: 12px;
-    line-height: 19px;
-    letter-spacing: 0.5px;
-    word-spacing: 1px;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.4px
 }
 .para_content h4{font-size: 20px;}
 .navigating_cold{
@@ -1520,15 +1520,19 @@ user-select: none;
 .navigating_future_content h1{
     font-size: 2.6rem;
     padding: 0;
-    width: 75%;
+    width: 80%;
     line-height: 60px;
 }
 .navigating_future_canda .paragraphs .para_content h2{
-    font-size: 14px;
+    margin: 5px 0 0px 0;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: Lora
 }
 .navigating_future_canda .paragraphs .para_content p{
-    font-size: 11px;
-    line-height: 16px;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.4px
 }
 }
 @media (max-width:750px){
