@@ -772,7 +772,13 @@ justify-content: flex-start;
     margin: 5px 0 0px 0;
     font-size:20px;
     line-height: 30px;
-    font-family: Lora;
+    font-style: italic;
+font-family: Lora;
+}
+.para_content span{
+    font-size: 0px;
+    width: 2px;
+    display: inline-block;
 }
  .para_content p{
     line-height: 25px;
