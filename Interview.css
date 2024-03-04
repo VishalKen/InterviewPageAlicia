@@ -259,7 +259,7 @@ box-sizing: border-box;
    
    .Interview_intro{
     margin-top: 100vh;
-    padding: 50px 0;
+    padding: 50px 0 70px 0;
 background: rgb(241 241 241);
   
    }
@@ -901,7 +901,7 @@ user-select: none;
 .navigating_future_canda .paragraphs .para_content h2{
     font-family: Lora;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 22px;
     margin: 0;
 }
 .navigating_future_canda .paragraphs .para_content p{
@@ -1632,7 +1632,7 @@ user-select: none;
     }
 }
 @media (max-width:574px){
-    .name h1{font-size: 47px;line-height: 53px;}
+    .name h1{font-size: 50px;line-height: 53px;}
     .responsive_nav{
         transform: translateX(-450px);
     }
@@ -1690,8 +1690,9 @@ user-select: none;
 @media (max-width:490px){
     .navigation_navbar{display: none;}
     .name h2{font-size: 9px;}
-    .name h1{font-size:35px;line-height: 38px;}
+    .name h1{font-size:40px;line-height: 44px;}
     .name h3{font-size: 10px;line-height: 15px;}
+    .expanding_area{background-position: 0 -320px !important;}
 }
 @media (max-width:460px){
     .name h1{font-size:32px;line-height: 38px;}
@@ -1752,7 +1753,7 @@ user-select: none;
         100%{right: 0;opacity: 1;}
     }
     .market_growth{height: 320px;}
-    .market_growth_content h1{font-size: 2rem;line-height: 35px;-webkit-text-stroke: 0.3px #fff;letter-spacing: 1px;word-spacing: 3px;}
+    .market_growth_content h1{font-size: 2rem;line-height: 35px;-webkit-text-stroke: 1px #fff;letter-spacing: 1px;word-spacing: 3px;}
     .intro_content h1{font-size: 18px;line-height: 27px; margin-top: 20px;}
     .para_content h2{font-size: 16px;line-height: 25px;}
     .intro_content p{font-size: 15px;line-height: 25px;margin: 16px 0;letter-spacing: 0.2px;word-spacing: 2px;}
@@ -1763,7 +1764,7 @@ user-select: none;
     .banner_one .banner_content .comment{left: 119px;width: 72px;height: 70px;bottom: -72px;}
     .navigating_cold{height: 320px;display: flex;align-items: center;justify-content: center;}
     .navigating_cold_content {padding: 0;}
-    .navigating_cold_content h1{font-size: 40px;line-height: 50px;-webkit-text-stroke: 0.4px #fff;}
+    .navigating_cold_content h1{font-size: 40px;line-height: 50px;-webkit-text-stroke: 1px #fff;}
     .para_content h1{font-size: 15px;line-height: 28px;}
     .para_content ul li{font-size: 15px;line-height: 25px}
     .paragraphs p{font-size:15px;line-height: 25px;margin: 10px 0;letter-spacing: 0.2px;word-spacing: 2px;}
@@ -1774,7 +1775,7 @@ user-select: none;
     .commentt {width: 75px;bottom: -119px;left: 71px;}
     .para_content h4{font-size: 17px;}
     .future_trend_content {padding: 0 0 0 32px;}
-    .future_trend_content h1{font-size: 40px;line-height: 50px;-webkit-text-stroke: 0.4px #fff;}
+    .future_trend_content h1{font-size: 40px;line-height: 50px;-webkit-text-stroke: 1px #fff;}
     .future_trends_img{height: 320px;display: flex;align-items: center;justify-content: center;}
     .banner_three{height: 320px;margin-bottom: 30px;}
     .banner_three .banner_img img{height: 320px;}
@@ -1782,11 +1783,11 @@ user-select: none;
     .banner_three .banner_content h5{font-size: 21px;line-height: 26px;}
     .commentth{left: 53px;width: 76px;bottom: -100px;}
     .expanding_area{height: 320px;background-position: 0 -321px !important;}
-    .expanding_area_content {padding: 0 0 0 65px;}
-    .expanding_area_content h1{font-size: 42px;line-height: 51px;-webkit-text-stroke: 0.4px #fff;letter-spacing: 0px;}
+    .expanding_area_content {padding: 0 0 0 32px;}
+    .expanding_area_content h1{font-size: 42px;line-height: 51px;-webkit-text-stroke: 1px #fff;letter-spacing: 0px;}
     .navigating_future{height: 320px;}
     .navigating_future_content{padding: 0 0 0 30px;}
-    .navigating_future_content h1{font-size: 32px;line-height: 38px;-webkit-text-stroke: 0.4px #fff;letter-spacing: 2px;}
+    .navigating_future_content h1{font-size: 32px;line-height: 38px;-webkit-text-stroke: 1px #fff;letter-spacing: 2px;}
     .navigating_future_canda .paragraphs .para_content h2{
         font-size: 18px;line-height: 28px;margin-bottom: 8px;
     }
