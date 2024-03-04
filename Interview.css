@@ -1500,7 +1500,7 @@ user-select: none;
 .navigating_cold_content h1{
     font-size: 3rem;
     line-height: 60px;
-    -webkit-text-stroke: 0.8px #fff;
+    -webkit-text-stroke: 1px #fff;
 }
 .market_growth_content{
     bottom: 40px;
@@ -1509,7 +1509,7 @@ user-select: none;
 .market_growth_content h1{
     font-size: 3rem;
     line-height: 60px;
-    -webkit-text-stroke: 0.8px #fff;
+    -webkit-text-stroke: 1px #fff;
 }
 .future_trends_img{
     height: 400px;
@@ -1524,7 +1524,7 @@ user-select: none;
 .future_trend_content h1{
     font-size: 3rem;
     line-height: 60px;
-    -webkit-text-stroke: 0.8px #fff;
+    -webkit-text-stroke: 1px #fff;
 }
 .expanding_area{
     height: 400px;
