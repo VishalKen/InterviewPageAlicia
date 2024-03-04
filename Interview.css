@@ -106,10 +106,10 @@ align-items: center;
 justify-content: center;
 height: 100vh;
 
-/* background: url('images/purple-blur-abstract-texture-background-pattern-backdrop-gradient-wallpaper\ \(1\).jpg');
-background-size: cover; */
-background: rgb(43,14,104);
-background: linear-gradient(132deg, rgba(43,14,104,1) 40%, rgba(181,88,202,1) 100%);
+/* background: rgb(43,14,104);
+background: linear-gradient(132deg, rgba(43,14,104,1) 40%, rgba(181,88,202,1) 100%); */
+background: rgb(20,0,55);
+background: linear-gradient(153deg, rgba(20,0,55,1) 13%, rgba(73,23,138,1) 51%, rgba(254,0,194,1) 100%);
 background-size: cover;
 position: fixed;
 top: 0;
@@ -183,7 +183,7 @@ user-select: none;
     text-transform: uppercase;
     -webkit-text-fill-color: transparent;
 }
-.name h3{
+.name p{
 
     font-size: 1.3rem;
     font-weight: 500;
@@ -838,7 +838,7 @@ box-sizing: border-box;
     
 }
 .navigating_future_canda .paragraphs {
-    background: #6C22A6;
+    background: #5E1675;
 
     color: #fff;
    position: relative;
@@ -1010,6 +1010,9 @@ user-select: none;
     100%{opacity: 1;transform: translateX(0px);}
 }
 @media (min-width:1450px) {
+    .Introduction_background h1{
+        font-size: 20rem;
+    }
     .navigation_navbar ul{
         padding: 0 30px 0 40px;
         gap: 30px;
@@ -1028,8 +1031,8 @@ user-select: none;
         }
     }
     .name h1{
-        font-size: 9rem;
-        line-height: 150px !important;
+        font-size: 12rem;
+        line-height: 180px !important;
     }
     .intro_content h1{
         font-size: 2.2rem;
@@ -1269,7 +1272,7 @@ user-select: none;
 }
 @media (max-width:1040px){
     .name h1{font-size: 6.2rem;line-height: 100px;}
-    .name h3{font-size: 1.5rem;line-height: 34px;}
+    .name p{font-size: 1.5rem;line-height: 34px;}
     .interviwee_img img{border-width: 3px;}
   
     .responsive_nav{
@@ -1324,7 +1327,7 @@ user-select: none;
 @media (max-width:869px){
     .name h1{font-size: 5.2rem;line-height: 85px;}
     .name h2{font-size: 1.1rem;letter-spacing: 1px;}
-    .name h3{font-size: 1.1rem;line-height: 28px;}
+    .name p{font-size: 1.1rem;line-height: 28px;}
     .banner_one .banner_content h5{font-size: 1.6rem;line-height: 45px;}
     .responsive_nav{
         transform: translateX(-290px);
@@ -1333,7 +1336,7 @@ user-select: none;
 @media (max-width:830px){
     .name h1{font-size: 5rem;line-height: 82px;}
     .name h2{font-size: 1rem;letter-spacing: 1px;}
-    .name h3{font-size: 1rem;line-height: 28px;}
+    .name p{font-size: 1rem;line-height: 28px;}
     .one{width: 56px;height: 33px;}
     .one img{width: 28px;height: 26px;bottom: 1px;left: 12px;}
     .hexagon{padding: 0 200px;}
@@ -1356,7 +1359,7 @@ user-select: none;
     .Interview_intro{margin-top: 410px;padding: 20px 0;}
     .name h2{font-size: 0.8rem;}
     .name h1{font-size: 4.8rem;line-height: 76px;}
-    .name h3{font-size: 0.8rem;line-height: 20px;letter-spacing: 0.7px;}
+    .name p{font-size: 0.8rem;line-height: 20px;letter-spacing: 0.7px;}
     .name span{font-size: 1.2rem;}
     .intro_content{width: 80%;}
     .para_content{width: 80%;}
@@ -1573,7 +1576,7 @@ user-select: none;
 }
 @media (max-width:750px){
     .name h1{font-size: 4.2rem;}
-    .name h3{letter-spacing: 1px;}
+    .name p{letter-spacing: 1px;}
 }
 @media (max-width:715px){
     .one img{left: 11px;}
@@ -1609,7 +1612,7 @@ user-select: none;
     .hexagon{padding: 0 158px;gap: 8px;}
     .one{width: 47px;}
     .one img{width: 25px;height: 20px;bottom: 2px;left: 9px;}
-    .name h3{font-size: 14px; line-height: 18px;}
+    .name p{font-size: 14px; line-height: 18px;}
     .name h1{font-size: 54px;line-height: 55px;}
     .responsive_nav{
         transform: translateX(-380px);
@@ -1647,7 +1650,7 @@ user-select: none;
         transform: translateX(-480px);
     }
     .name h1{font-size: 43px;line-height: 52px;}
-    .name h3{font-size: 0.6rem;line-height: 15px;}
+    .name p{font-size: 0.6rem;line-height: 15px;}
     .interviwee_img img{width: 93%;border-width: 3px;}
     .Introduction{height: 350px;}
     .Interview_intro{margin-top: 350px;}
@@ -1691,7 +1694,7 @@ user-select: none;
     .navigation_navbar{display: none;}
     .name h2{font-size: 9px;}
     .name h1{font-size:40px;line-height: 44px;}
-    .name h3{font-size: 10px;line-height: 15px;}
+    .name p{font-size: 10px;line-height: 15px;}
     .expanding_area{background-position: 0 -320px !important;}
 }
 @media (max-width:460px){
@@ -1726,7 +1729,7 @@ user-select: none;
     .name{width: 50%;}
     .name h1{font-size:40px;line-height: 42px;}
     .name h2{font-size: 16px;letter-spacing: 0.7px;text-transform: capitalize;}
-    .name h3{font-size: 14px;line-height: 20px;letter-spacing: 0.6px;}
+    .name p{font-size: 14px;line-height: 20px;letter-spacing: 0.6px;}
     .name span{font-size: 1rem;}
     .scroll_sign {display: none;}
     .arrow_box{width: 10px;height: 16px;border: 1.2px solid #fff;}
@@ -1808,7 +1811,7 @@ user-select: none;
     .intro_content h1{font-size: 1.2rem;line-height: 30px;}
     .name h2{font-size:9px;letter-spacing: 0px;}
     .name h1{font-size:25px;line-height: 28px;}
-    .name h3{font-size:8px;line-height: 11px;}
+    .name p{font-size:8px;line-height: 11px;}
     .navigation_navbar ul{gap: 4px;padding: 0;}
     @keyframes animate_nav {
         0%{
@@ -1824,7 +1827,7 @@ user-select: none;
 }
 @media (max-width:321px){
     .name h1{font-size: 27px;line-height: 30px;}
-    .name h3{    font-size: 10px;
+    .name p{    font-size: 10px;
         line-height: 13px;
     }
     .name h2{
