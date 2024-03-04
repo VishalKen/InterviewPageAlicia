@@ -35,8 +35,8 @@ padding: 0;
 display: flex;
 flex-flow: row;
 gap:19px;
-
 list-style-type: none;
+transition: all 0.5s ease-in-out;
 padding: 0 20px 0 20px;
 }
 .navigation_navbar ul li{
@@ -265,7 +265,6 @@ background: rgb(241 241 241);
    }
    
    .intro_content {
-width: 70%;
 margin: 0 auto;
    }
    .intro_content h1{
@@ -274,7 +273,8 @@ margin: 0 auto;
     font-weight: 700;
     font-family: Poppins;
     line-height: 36px;
-    margin: 0;
+    margin: 0 auto;
+    width: 70%;
   margin-bottom: 40px;
    }
    .intro_content p{
@@ -302,7 +302,7 @@ margin: 0 auto;
     overflow: hidden;
     box-sizing: border-box;
     padding: 20px 0;
-margin-bottom: 50px;
+margin: 50px 0;
 }
 .banner_one .banner_img{
     width: 50%;
@@ -441,6 +441,8 @@ padding: 25px 0 0 0;
     height: 100vh;
     background: rgb(241 241 241);
     flex-flow: row;
+    margin: 50px 0;
+    overflow: hidden;
 }
 .banner_two .banner_content{
     width: 50%;
@@ -486,8 +488,6 @@ padding: 25px 0 0 0;
     width: 100%;
     height: 100vh;
     box-sizing: border-box;
-    margin-top: 70px;
- 
     position: relative;
     background: url("images/2147717389.jpg");
     background-size: cover;
@@ -660,7 +660,7 @@ padding: 0 0px 0 200px;
     overflow: hidden;
     box-sizing: border-box;
     padding: 20px 0;
-margin-bottom: 50px;
+margin: 50px 0;
 }
 .banner_three .banner_img{
     width: 60%;
@@ -762,7 +762,7 @@ justify-content: flex-start;
    width: 100%;
 }
 .intro_content .para_content{
-    width: 100%;
+    width: 70%;
     margin-top: 35px;
 }
 .para_content{
@@ -1265,9 +1265,21 @@ user-select: none;
     .name h1{font-size: 6.2rem;line-height: 100px;}
     .name h3{font-size: 1.5rem;line-height: 34px;}
     .interviwee_img img{border-width: 3px;}
-    .intro_content{width: 75%;}
+  
+    .responsive_nav{
+        transform: translateX(-200px);
+    }
+    @keyframes animate_nav {
+        0%{
+            width: 0px;
+        }
+        100%{
+            width: 20px;
+        }
+    }
     .para_content{width: 75%;}
-    .intro_content h1{font-size: 1.5rem;line-height: 37px;}
+    .intro_content .para_content{width: 75%;}
+    .intro_content h1{font-size: 1.5rem;line-height: 37px;width: 75%;}
     .intro_content p{font-size: 15px;line-height: 26px;}
     .banner_one .banner_content{left: 109px;}
     .banner_one .banner_content .comment{left: 290px;width: 150px;bottom: -155px;}
@@ -1292,18 +1304,25 @@ user-select: none;
     .banner_one .banner_content h5{font-size: 1.75rem;}
     .banner_three .banner_content h5{font-size: 2rem;}
 }
+
 @media (max-width:906px){
     .name h1{font-size: 5.5rem;}
     .one{width: 56px;height: 33px;}
     .one img{width: 28px;height: 26px;bottom: 1px;left: 12px;}
     .banner_one .banner_content h5{font-size: 1.7rem;}
     .banner_three .banner_content h5{font-size: 1.8rem;}
+    .responsive_nav{
+        transform: translateX(-250px);
+    }
 }
 @media (max-width:869px){
     .name h1{font-size: 5.2rem;line-height: 85px;}
     .name h2{font-size: 1.1rem;letter-spacing: 1px;}
     .name h3{font-size: 1.1rem;line-height: 28px;}
     .banner_one .banner_content h5{font-size: 1.6rem;line-height: 45px;}
+    .responsive_nav{
+        transform: translateX(-290px);
+    }
 }
 @media (max-width:830px){
     .name h1{font-size: 5rem;line-height: 82px;}
@@ -1314,11 +1333,17 @@ user-select: none;
     .hexagon{padding: 0 200px;}
     .banner_two .banner_content h1{font-size: 2rem;}
     .banner_three .banner_content h5{line-height: 45px;}
+    .responsive_nav{
+        transform: translateX(-310px);
+    }
 }
 @media (max-width:808px){
     .name h1{font-size: 4.7rem;line-height: 80px;}
     .name h2{font-size: 0.85rem;letter-spacing: 1px;}
     .banner_three .banner_content{left: 106px;}
+    .responsive_nav{
+        transform: translateX(-350px);
+    }
 }
 @media (max-width:769px) {
     .Introduction{height: 410px;}
@@ -1329,6 +1354,7 @@ user-select: none;
     .name span{font-size: 1.2rem;}
     .intro_content{width: 80%;}
     .para_content{width: 80%;}
+    .intro_content .para_content{width: 100%;}
     .interviwee_img img{
         width: 65%;
        
@@ -1342,10 +1368,10 @@ user-select: none;
     }
     .navigation_navbar ul {gap: 10px;padding: 0 0 0 5px;}
     .navigation_navbar ul li a{
-        font-size: 8px;
-        padding: 0 0 0 15px;
+        font-size: 10px;
+        padding: 0 0 0 22px;
         &::after{
-            margin-left: 5px;
+            margin-left: 12px;
         }
     }
     
@@ -1361,6 +1387,7 @@ user-select: none;
     font-size: 1.4rem;
     line-height: 38px;
     margin-top: 50px;
+    width: 100%;
 }
 .intro_content p{
     font-size: 15px;
@@ -1534,6 +1561,9 @@ user-select: none;
     line-height: 26px;
     letter-spacing: 0.4px
 }
+.bottom_background h1{
+    font-size: 10rem;
+}
 }
 @media (max-width:750px){
     .name h1{font-size: 4.2rem;}
@@ -1548,7 +1578,11 @@ user-select: none;
     .banner_two .banner_content{padding: 0;}
     .commentt{width: 110px;bottom: -135px;left: 17px;}
     .banner_three .banner_content{left: 60px;}
-
+    .intro_content h1{width: 100%;}
+    .intro_content .para_content{width: 100%;}
+    .navigating_future_content{padding: 0 0 0 45px;}
+    .future_trend_content{padding: 0 0 0 56px;}
+    .expanding_area_content{padding: 0 0 0 80px;}
 }
 @media (max-width:708px){
     .name h1{font-size: 3.8rem;}
@@ -1571,7 +1605,10 @@ user-select: none;
     .one img{width: 25px;height: 20px;bottom: 2px;left: 9px;}
     .name h3{font-size: 14px; line-height: 18px;}
     .name h1{font-size: 54px;line-height: 55px;}
-    
+    .responsive_nav{
+        transform: translateX(-380px);
+    }
+    .navigating_future_content{padding: 0 0 0 40px;}
 }
 @media (max-width:600px){
     .hexagon{padding: 0 130px;}
@@ -1584,21 +1621,31 @@ user-select: none;
     .banner_two .banner_content{padding: 0 10px;}
     .banner_two .banner_content h1{font-size: 24px;line-height: 30px;}
     .name h1{font-size: 50px;line-height: 55px;}
+    .responsive_nav{
+        transform: translateX(-420px);
+    }
 }
 @media (max-width:574px){
     .name h1{font-size: 47px;line-height: 53px;}
+    .responsive_nav{
+        transform: translateX(-450px);
+    }
 }
 @media (max-width:545px){
     .hexagon{padding: 0 100px;}
     .name h1{font-size: 44px;line-height: 53px;}
+    
 }
 @media (max-width:526px){
-    .name h1{font-size: 38px;line-height: 45px;}
+    .responsive_nav{
+        transform: translateX(-480px);
+    }
+    .name h1{font-size: 43px;line-height: 52px;}
     .name h3{font-size: 0.6rem;line-height: 15px;}
     .interviwee_img img{width: 93%;border-width: 3px;}
     .Introduction{height: 350px;}
     .Interview_intro{margin-top: 350px;}
-    .intro_content h1{font-size: 15px;line-height: 23px;}
+    .intro_content h1{font-size: 21px;line-height: 32px;}
     .banner_one{height: 355px;margin-bottom: 20px;}
     .banner_one .banner_content h5{line-height: 24px;font-size: 1.1rem;}
     .banner_one .banner_content{left: 63px;}
@@ -1606,7 +1653,7 @@ user-select: none;
     .banner_one .banner_content .comment{left: 120px;width: 100px;bottom: -83px;}
     .banner_two{height: 320px;}
     .banner_two .banner_content{padding: 0;}
-    .banner_two .banner_content h1{font-size: 1.2rem;line-height: 23px;letter-spacing: 0px;}
+    .banner_two .banner_content h1{font-size: 21px;line-height: 25px;letter-spacing: 0px;}
     .banner_two .banner_img img{height: 320px;}
     .commentt{width: 104px;bottom: -140px;left: 14px;}
     .banner_three{height: 335px;margin-bottom: 25px;}
@@ -1620,26 +1667,29 @@ user-select: none;
     .navigating_cold{height: 320px;}
     .navigating_cold_content h1{font-size: 2.2rem;line-height: 45px;-webkit-text-stroke: 0.7px #fff;}
     .future_trends_img{height: 320px;display: flex;align-items: center;justify-content: center;}
-    .future_trend_content{padding: 0 0 0 81px;}
+    .future_trend_content{padding: 0 0 0 45px;}
     .future_trend_content h1{font-size: 38px;line-height: 44px;width: 75%;letter-spacing: 2px;}
     .one img{width: 16px;height: 17px;bottom: 7px;left: 1px;}
     .market_growth{height: 320px;background-size: cover;margin-top: 30px;}
     .market_growth_content h1{font-size: 32px;line-height: 42px;word-spacing: 1px;letter-spacing: 1px;}
     .expanding_area{height: 320px;background-size: cover;background-position: 0 -350px !important;}
-    .expanding_area_content{padding: 0 0 0 79px;}
+    .expanding_area_content{padding: 0 0 0 54px;}
     .expanding_area_content h1{font-size: 32px;line-height: 42px;letter-spacing: 2px;-webkit-text-stroke: 0.8px #fff;}
     .navigating_future{height: 320px;}
     .navigating_future_content{padding: 0 0 0 165px;}
     .navigating_future_content h1{font-size: 32px;line-height: 44px;letter-spacing: 1px;-webkit-text-stroke: 0.7px #fff;}
     .paragraphs{padding: 20px 0;}
+    .navigating_future_content{padding: 0 0 0 35px;}
 }
 @media (max-width:490px){
+    .navigation_navbar{display: none;}
     .name h2{font-size: 9px;}
     .name h1{font-size:35px;line-height: 38px;}
     .name h3{font-size: 10px;line-height: 15px;}
 }
 @media (max-width:460px){
     .name h1{font-size:32px;line-height: 38px;}
+    .scroll_sign{display: none;}
 }
 @media (max-width:436px){
     .navigation_navbar{display: none;}
@@ -1664,12 +1714,12 @@ user-select: none;
         100%{opacity: 1;transform: translateX(0px);}
     }
     .Introduction{height: 300px;}
-    .Introduction_background h1{font-size: 8rem;}
+    .Introduction_background h1{font-size: 7rem;line-height: 179px;word-spacing: 0px;letter-spacing: 1px;}
     .Interview_intro{margin-top: 300px;}
     .name{width: 50%;}
     .name h1{font-size:40px;line-height: 42px;}
-    .name h2{font-size: 11px;letter-spacing: 0.7px;text-transform: capitalize;}
-    .name h3{font-size: 11px;line-height: 16px;letter-spacing: 0.6px;}
+    .name h2{font-size: 16px;letter-spacing: 0.7px;text-transform: capitalize;}
+    .name h3{font-size: 14px;line-height: 20px;letter-spacing: 0.6px;}
     .name span{font-size: 1rem;}
     .scroll_sign {display: none;}
     .arrow_box{width: 10px;height: 16px;border: 1.2px solid #fff;}
@@ -1714,10 +1764,10 @@ user-select: none;
     .banner_two{height: 320px;}
     .banner_two .banner_img img{height: 320px;}
     .banner_two .banner_content{padding: 0 0px;right: 0;width: 75%;}
-    .banner_two .banner_content h1{font-size: 22px;line-height: 32px;letter-spacing: 0px;}
+    .banner_two .banner_content h1{font-size: 22px;line-height: 32px;letter-spacing: 0px;padding:0 13px}
     .commentt {width: 75px;bottom: -119px;left: 71px;}
     .para_content h4{font-size: 17px;}
-    .future_trend_content {padding: 0 0 0 64px;}
+    .future_trend_content {padding: 0 0 0 32px;}
     .future_trend_content h1{font-size: 40px;line-height: 50px;-webkit-text-stroke: 0.4px #fff;}
     .future_trends_img{height: 320px;display: flex;align-items: center;justify-content: center;}
     .banner_three{height: 320px;margin-bottom: 30px;}
@@ -1740,7 +1790,7 @@ user-select: none;
     
     .one img{bottom: 10px;left: 2px;width: 16px;height: 15px;}
     .navigating_future_canda .paragraphs .para_content p{font-size: 15px;line-height: 25px;margin: 10px 0;letter-spacing: 0.2px;margin: 5px 0 0 0;}
-    .bottom_background h1{font-size: 7rem;word-spacing: 30px;-webkit-text-stroke:0.1px #ffffff00;margin-top: -89px;line-height: 200px;}
+    .bottom_background h1{font-size: 9rem;word-spacing: 30px;-webkit-text-stroke:0.1px #ffffff00;margin-top: 0px;line-height: 250px;}
     .navigating_future_canda .paragraphs{overflow: hidden;padding: 0 0 50px 0;}
 }
 @media (max-width:427px){
@@ -1761,10 +1811,18 @@ user-select: none;
             width: 5px;
         }
     }
-    .market_growth_content h1{font-size: 1.4rem;word-spacing: 3px;}
+    .market_growth_content h1{font-size: 1.8rem;word-spacing: 3px;}
     .banner_three .banner_content h5{font-size: 0.8rem;}
     .banner_one .banner_content h5{font-size: 0.7rem;}
 }
 @media (max-width:321px){
-    .name h1{font-size: 1.2rem;line-height: 21px;}
+    .name h1{font-size: 27px;line-height: 30px;}
+    .name h3{    font-size: 10px;
+        line-height: 13px;
+    }
+    .name h2{
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+    .intro_content h1{font-size: 1rem;line-height: 26px;}
 }
