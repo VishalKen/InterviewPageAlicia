@@ -1214,9 +1214,9 @@ user-select: none;
         line-height: 37px;
        }
        .paragraphs p{
-        font-size: 1.44rem;
+        font-size: 20px;
         word-spacing: 4px;
-        line-height: 40px;
+        line-height: 37px;
        }
        .para_content ul{
         gap: 10px;
