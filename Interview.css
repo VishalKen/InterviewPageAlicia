@@ -105,7 +105,6 @@ padding: 40px;
 align-items: center;
 justify-content: center;
 height: 100vh;
-
 /* background: rgb(43,14,104);
 background: linear-gradient(132deg, rgba(43,14,104,1) 40%, rgba(181,88,202,1) 100%); */
 background: rgb(20,0,55);
@@ -114,7 +113,7 @@ background-size: cover;
 position: fixed;
 top: 0;
 left: 0;
-
+width: 100%;
 transition: all 0s ease-in-out;
 z-index: -1;
 }
@@ -139,14 +138,14 @@ user-select: none;
     font-family: Poppins;
     white-space: nowrap;
     font-weight: 800;
-    margin-top: -70px;
+   
     color:transparent;
     word-spacing: 50px;
     letter-spacing: 5px;
     animation: Introhead 2.5s 0.3s 1 forwards ease-in-out;
 &:nth-child(2){
     color:rgba(255 255 255/0.03);
-    margin-top: -50px;
+
     animation: Introhead 2.5s 0.3s 1 forwards ease-in-out;
 }
 }
@@ -156,7 +155,7 @@ user-select: none;
     100%{margin-left: -100px;color:rgba(255 255 255/0.04);}
 }
 .name{
-    width: 45%;
+    width: 55%;
     display: flex;
     flex-flow: column;
     align-items: flex-start;
@@ -165,13 +164,32 @@ user-select: none;
     padding: 10px 0 0 0;
     color: #fff;
     z-index: 1;
+    transition: all 0.5s ease-in-out;
+    margin-top: -120px;
 }
 .name h1{
-    font-size: 8.7rem;
+    font-size: 5.7rem;
     margin: 0;
-    line-height: 130px;
+    line-height: 90px;
     font-family: serif;
    letter-spacing: 1px;
+}
+p.Intro_intro{
+    margin: 0;
+    font-size: 20px ;
+    line-height: 32px;
+    font-family: Lato ;
+    font-weight: 500;
+    letter-spacing:1px ;
+    
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    bottom: 100px;
+    color: #fff;
+   
+   
+    transition: all 0.5s ease-in-out;
 }
 .name h2{
   font-family: Lato;
@@ -180,7 +198,7 @@ user-select: none;
     background: linear-gradient(120deg,#fff,#fff);
     background-clip: text;
     -webkit-background-clip: text;
-    text-transform: uppercase;
+    text-transform:capitalize;
     -webkit-text-fill-color: transparent;
 }
 .name p{
@@ -188,7 +206,8 @@ user-select: none;
     font-size: 1.3rem;
     font-weight: 500;
 font-family: Lato;
-margin-top: 10px;
+margin-top: 0px;
+text-transform:capitalize !important;
 letter-spacing: 1.5px;
 line-height: 40px;
 box-sizing: border-box;
@@ -201,15 +220,16 @@ box-sizing: border-box;
     
 }
 .interviwee_img{
-    width:50%;
-   margin-left: 70px;
+    width:30%;
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 1;
+    transition: all 0.5s ease-in-out;
+   margin-top: -130px;
 }
 .interviwee_img img{
-    width: 65%;
+    width: 70%;
     height: 60%;
 object-fit: cover;
 background: rgb(43,14,104);
@@ -786,7 +806,7 @@ font-family: Lora;
     margin-top: 10px;
     font-weight: 500;
     font-size: inherit;
-    word-spacing: 0.5px;
+   color: #3c3c3c;
 }
 .navigating_future{
     width: 100%;
@@ -1021,7 +1041,7 @@ user-select: none;
     .navigation_navbar ul li a{
         font-size: 13.6px;
         padding: 0 0 0 27px;
-       &::after{height: 2.5px;}
+       &::after{height: 2px;}
     }
     @keyframes animate_nav {
         0%{
@@ -1032,8 +1052,15 @@ user-select: none;
         }
     }
     .name h1{
-        font-size: 12rem;
-        line-height: 180px !important;
+        font-size: 9rem;
+        line-height: 130px !important;
+    }
+    .name p{
+        font-size: 1.5rem;
+        line-height: 60px;
+    }
+    p.Intro_intro{
+        font-size: 28px;line-height: 40px;bottom: 130px;
     }
     .intro_content h1{
         font-size: 2.2rem;
@@ -1164,7 +1191,7 @@ user-select: none;
     .navigating_future_content h1{
         font-size: 6rem !important;
         line-height: 120px;
-        width: 70%;
+        width: 80%;
     }
     .navigating_future_canda .paragraphs{
         gap: 50px;
@@ -1206,17 +1233,17 @@ user-select: none;
         line-height: 43px;
        }
        .para_content h2{
-        font-size: 28px;
-        line-height: 48px;
+        font-size: 30px;
+        line-height: 50px;
        }
        .intro_content p{
-        font-size: 20px;
-        line-height: 37px;
+        font-size: 23px;
+        line-height: 40px;
        }
        .paragraphs p{
-        font-size: 20px;
+        font-size: 1.44rem;
         word-spacing: 4px;
-        line-height: 37px;
+        line-height: 40px;
        }
        .para_content ul{
         gap: 10px;
@@ -1228,6 +1255,8 @@ user-select: none;
 
 }
 @media (min-width:1850px){
+    .name h1{font-size: 11rem;line-height: 150px !important;}
+    p.Intro_intro{font-size: 32px;line-height: 47px;}
     .navigation_navbar ul{
         gap: 55px;
     }
@@ -1282,10 +1311,14 @@ user-select: none;
     }
 }
 @media (max-width:1040px){
-    .name h1{font-size: 6.2rem;line-height: 100px;}
-    .name p{font-size: 1.5rem;line-height: 34px;}
-    .interviwee_img img{border-width: 3px;}
-  
+
+    .name h1{font-size: 5.2rem;line-height: 80px;}
+    .name p{font-size: 1.1rem;line-height: 34px;letter-spacing: 0.5px;}
+    .interviwee_img img{border-width: 3px;width: 81%;}
+  p.Intro_intro{
+    font-size: 18px;
+    line-height: 25px;
+  }
     .responsive_nav{
         transform: translateX(-200px);
     }
@@ -1320,7 +1353,7 @@ user-select: none;
     .expanding_area_content{padding:  0 0 0 130px;}
 }
 @media (max-width:956px){
-    .name h1{font-size: 5.8rem;}
+    .name h1{font-size: 4.8rem;}
     .banner_one .banner_content h5{font-size: 1.75rem;}
     .banner_three .banner_content h5{font-size: 2rem;}
     .navigating_future{background-position: 0 0;}
@@ -1370,14 +1403,15 @@ user-select: none;
     .Introduction{height: 410px;}
     .Interview_intro{margin-top: 410px;padding: 20px 0;}
     .name h2{font-size: 0.8rem;}
-    .name h1{font-size: 4.8rem;line-height: 76px;}
+    .name h1{font-size: 3.8rem;line-height: 60px;}
     .name p{font-size: 0.8rem;line-height: 20px;letter-spacing: 0.7px;}
+    p.Intro_intro{font-size: 16px;line-height: 21px;bottom: 80px;}
     .name span{font-size: 1.2rem;}
     .intro_content{width: 80%;}
     .para_content{width: 80%;}
     .intro_content .para_content{width: 100%;}
     .interviwee_img img{
-        width: 65%;
+        width: 80%;
        
     }
     .arrow_box {width: 16px;height: 24px;}
@@ -1588,8 +1622,8 @@ user-select: none;
 }
 }
 @media (max-width:750px){
-    .name h1{font-size: 4.2rem;}
-    .name p{letter-spacing: 1px;}
+    .name h1{font-size: 3.2rem;line-height: 48px;}
+    .name p{letter-spacing: 1px;margin-top: 10px;}
 }
 @media (max-width:715px){
     .one img{left: 11px;}
@@ -1606,15 +1640,13 @@ user-select: none;
     .future_trend_content{padding: 0 0 0 56px;}
     .expanding_area_content{padding: 0 0 0 80px;}
 }
-@media (max-width:708px){
-    .name h1{font-size: 3.8rem;}
-}
+
 @media (max-width:675px){
     .hexagon{padding: 0 140px;}
     .one img{left: 13px;bottom: 2px;}
     .banner_one .banner_content{padding: 0;}
     .banner_one .banner_content .comment{left: 160px;width: 100px;}
-    .name h1{font-size: 3.6rem;}
+    .name h1{font-size: 3rem;}
     .navigating_future{background-position: 0 0;}
 }
 @media (max-width:650px){
@@ -1623,6 +1655,7 @@ user-select: none;
     .banner_one .banner_content .comment{bottom: -75px;}
 }
 @media (max-width:630px){
+    p.Intro_intro{font-size: 14px;line-height: 20px;}
     .hexagon{padding: 0 158px;gap: 8px;}
     .one{width: 47px;}
     .one img{width: 25px;height: 20px;bottom: 2px;left: 9px;}
@@ -1643,10 +1676,12 @@ user-select: none;
     .banner_three .banner_content{left: 90px;}
     .banner_two .banner_content{padding: 0 10px;}
     .banner_two .banner_content h1{font-size: 24px;line-height: 30px;}
-    .name h1{font-size: 50px;line-height: 55px;}
+    .name h1{font-size: 50px;line-height: 45px;}
     .responsive_nav{
         transform: translateX(-420px);
     }
+    .name{width: 70%;}
+    p.Intro_intro{font-size: 13px;line-height: 20px;bottom: 80px;}
 }
 @media (max-width:574px){
     .name h1{font-size: 50px;line-height: 53px;}
@@ -1665,6 +1700,7 @@ user-select: none;
     }
     .name h1{font-size: 43px;line-height: 52px;}
     .name p{font-size: 0.6rem;line-height: 15px;}
+    p.Intro_intro{font-size: 11px;line-height: 17px;}
     .interviwee_img img{width: 93%;border-width: 3px;}
     .Introduction{height: 350px;}
     .Interview_intro{margin-top: 350px;}
@@ -1712,12 +1748,14 @@ user-select: none;
     .expanding_area{background-position: 0 -320px !important;}
 }
 @media (max-width:460px){
-    .name h1{font-size:32px;line-height: 38px;}
+    .name h1{font-size:40px;line-height: 45px;}
+    p.Intro_intro{bottom: 50px;}
     .scroll_sign{display: none;}
 }
 @media (max-width:436px){
     .navigation_navbar{display: none;}
     section{overflow: hidden;}
+    p.Intro_intro{font-size: 12px;bottom: 30px;line-height: 20px;}
     .navigation_navbar ul{gap: 7px;}
     .navigation_navbar ul li a{font-size: 4px; padding: 0 0 0 10px;display: flex; &::after{margin-left: 5px;background-size: 5px 2px;height: 0.8px;margin-top: -1px;}}
     @keyframes animate_nav {
@@ -1740,10 +1778,11 @@ user-select: none;
     .Introduction{height: 300px;}
     .Introduction_background h1{font-size: 7rem;line-height: 179px;word-spacing: 0px;letter-spacing: 1px;}
     .Interview_intro{margin-top: 300px;}
-    .name{width: 50%;}
+    .name{width: 60%;}
+    .interviwee_img{width: 38%;}
     .name h1{font-size:40px;line-height: 42px;}
-    .name h2{font-size: 16px;letter-spacing: 0.7px;text-transform: capitalize;}
-    .name p{font-size: 14px;line-height: 20px;letter-spacing: 0.6px;}
+    .name h2{font-size: 10px;letter-spacing: 0.7px;text-transform: capitalize;}
+    .name p{font-size: 10px;line-height: 17px;letter-spacing: 0.6px;}
     .name span{font-size: 1rem;}
     .scroll_sign {display: none;}
     .arrow_box{width: 10px;height: 16px;border: 1.2px solid #fff;}
@@ -1819,6 +1858,10 @@ user-select: none;
 }
 @media (max-width:427px){
     .name h1{font-size:40px;line-height: 42px;}
+}
+@media (max-width:400px){
+    p.Intro_intro{line-height: 16px;}
+
 }
 @media (max-width:376px){
     .navigation_navbar ul{margin: 10px 0;}
