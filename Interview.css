@@ -127,7 +127,7 @@ overflow: hidden;
 @keyframes animateImg {0%{opacity: 0;transform: translateX(-30px);}70%{opacity: 1;}100%{opacity: 1;transform: translateX(0px);}}
 @media (min-width:1300px) {name h1{font-size: 7rem;line-height: 110px;}}
 @media (min-width:1450px) {
-    .Introduction_background h1{font-size: 20rem;}
+    .Introduction_background h1{font-size: 20rem;line-height: 450px !important;}
     .navigation_navbar ul{padding: 0 30px 0 40px;gap: 30px;}
     .navigation_navbar ul li a{font-size: 13.6px;padding: 0 0 0 27px;&::after{height: 2px;}}
     @keyframes animate_nav {0%{width: 0px;}100%{width: 66px;}}
@@ -165,6 +165,7 @@ overflow: hidden;
 @media (min-width:1650px) {
     .name h1{font-size: 9rem;line-height: 130px !important;}
     p.Intro_intro{bottom: 120px;}
+   
     .banner_two .banner_content h1{font-size: 3.3rem;line-height: 60px;margin-left: 60px;}
     .banner_three .banner_content h5{font-size: 3rem;line-height: 60px;margin-left: 70px;}
     .paragraphs{padding: 70px 0 75px 0;}
